@@ -1,1 +1,55 @@
-"" 
+/*Generic Tag based Rules*/
+body{
+   margin: auto;
+   font-family: Helvetica;
+   text-align: center;
+}
+
+a{
+  color:white;
+  font-size: 18px;
+}
+
+h2{
+  font-size: 32px
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/*Id based Rules */
+#Home{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+#newYork{
+  background-image: url("../images/the-flatiron-building.png");
+  color: white;
+}
+
+/*Class based Rules*/
+.nav{
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+}
+
+.description{
+  font-size: 14px;
+}
+
+.bottomNav{
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  background-color: dimgrey;
+  text-align: left;
+  color: white;
+}
+
+#copyright{
+  font-size: 11px;
+}
